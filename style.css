@@ -1,0 +1,327 @@
+.body{
+  background-color: white;
+}
+
+p{
+	padding-top: 5px;
+}
+
+.button {
+  display: inline-block;
+  background-color: #3498db;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  position: fixed;
+}
+
+.personal {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Poetsen One', Arial;
+}
+
+.container {
+  overflow: hidden; /* Clearfix para limpiar el float */
+}
+
+.actual {
+  float: left; /* Hace que la imagen flote a la izquierda */
+  margin-right: 25px; /* Espacio entre la imagen y el texto */
+  height:420px;
+  width: 420px;
+  margin-bottom: 150px;
+}
+
+.bebe{
+  float: right; /* Hace que la imagen flote a la derecha */
+  margin-left: 25px; /* Espacio entre la imagen y el texto */
+  width: 250px;
+  margin-right: 15px;
+}
+
+.mediana{
+  float: left;
+  margin-right: 25px; /* Espacio entre la imagen y el texto */
+  margin-left: 10px;
+  height: 300px;
+  width: 300px;
+}
+
+.cancion{
+  float: left;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+.boda{
+float: left;
+margin-left: 10px;
+margin-right: 25px;
+}
+
+.amargo{
+  float: right;
+  margin-left: 25px;
+  width: 180px;
+  height: 300px;
+}
+
+.resumen{
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 25px;
+}
+
+.niña{
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.adolescente{
+  font-size: 20px;
+  text-align: justify;
+  margin-right: 25px;
+}
+
+section img{
+	width: 300px;
+  margin-left: 80px;
+}
+
+.titulo{
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Poetsen One', Arial;
+  text-shadow: 0px 1px 0px grey,
+  0px 2px 4px rgb(253, 3, 3),
+  0px 3px 4px white,
+  0px 4px 4px rgb(253, 3, 3),
+  0px 5px 4px white,	
+  0px 6px 4px rgb(253, 3, 3),
+  0px 7px 4px white;	         	         	         		         
+}
+
+
+a.menu:link{
+background-color: rgb(235, 154, 194);
+border: 2px solid black;
+color: black;
+border-radius: 9px;
+padding: 10px;
+text-decoration: none;
+font-size: 15px;
+font-weight: bold;
+font-style: Arial;
+}
+
+a.menu:hover{
+background: deeppink;
+color: white;
+}
+
+
+.ig{
+  width: 60px;
+  height: 60px;
+}
+
+.facebook{
+  width: 60px;
+  height: 60px;
+}
+
+.spotify{
+  width: 60px;
+  height: 60px;
+}
+
+.youtube{
+  width: 60px;
+  height: 60px;
+}
+
+.redes{
+  font-family: 'Kanit', Arial; 
+  margin-top: 45px;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  color: lightgreen;
+  text-shadow: 2px 2px 0px black, -2px 2px 0px black, 2px -2px 0px black, -2px -2px 0px black;
+            /* Ajusta los valores para cambiar la apariencia del contorno */
+}
+
+.iconos{
+  margin-left: 215px;
+  margin-top: 20px;
+}
+
+/* styles.css imagen con sombra */
+.shadow-effect img {
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-effect img:hover {
+  box-shadow: 30px 30px 30px rgba(121, 216, 240, 0.931);
+}
+
+.rbd{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Poetsen One', Arial;
+}
+
+.sola{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Poetsen One', Arial;
+}
+
+
+
+.actuar{
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Poetsen One', Arial;
+  margin-bottom: 30px;
+}
+
+.carrusel {
+  text-align: left;
+  color: black;
+  font-size: 40px;
+  font-family: 'Kanit', Arial;
+  margin-bottom: 30px;
+  margin-left: 25px;
+  background: linear-gradient(to right, #D8BFD8, #ADD8E6, #FFB6C1);
+  position: relative;
+  display: inline-block;
+}
+
+.rob{
+  width: 140px;
+  height: 140px;
+  border-radius: 60px;
+}
+
+.mar{
+  width: 140px;
+  height: 140px;
+  border-radius: 60px;
+}
+
+.emilia{
+  width: 140px;
+  height: 140px;
+  border-radius: 60px;
+}
+
+.roberta{
+  float: right;
+  margin-left: 25px; /* Espacio entre la imagen y el texto */
+  margin-right: 15px;
+  height: 420px;
+  width: 300px;
+}
+
+.extranjera{
+  float: left;
+  margin-left: 30px;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
+
+.novela{
+  margin-left: 25px;
+  text-align: justify;
+}
+
+.card-text{
+  text-align: justify;
+}
+
+.sencillo{
+  text-align: justify;
+  margin-right: 25px;
+}
+
+.video{
+  margin-top: 25px;
+  float: left;
+  margin-right: 20px;
+}
+
+.padres{
+  margin-right: 25px;
+  text-align: justify;
+  margin-top: 25px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #94c0e4;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #94c0e4;
+}
